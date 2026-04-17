@@ -11,7 +11,7 @@ public class IMetierImpl implements IMetier {
     }
     @Override
     public double calcule() {
-        return 0;
+        return dao.getData() * 2;
     }
 
 
