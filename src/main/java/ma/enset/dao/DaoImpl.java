@@ -1,4 +1,4 @@
-package dao;
+package ma.enset.dao;
 
 public class DaoImpl implements IDao {
     @Override

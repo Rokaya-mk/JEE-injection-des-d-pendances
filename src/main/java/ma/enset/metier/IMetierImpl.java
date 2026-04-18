@@ -1,6 +1,6 @@
-package metier;
+package ma.enset.metier;
 
-import dao.IDao;
+import ma.enset.dao.IDao;
 
 public class IMetierImpl implements IMetier {
     private IDao dao;

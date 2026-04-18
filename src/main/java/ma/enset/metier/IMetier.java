@@ -1,4 +1,4 @@
-package metier;
+package ma.enset.metier;
 
 public interface IMetier {
     double calcule();
