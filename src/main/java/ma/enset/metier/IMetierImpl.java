@@ -1,5 +1,6 @@
 package ma.enset.metier;
 
+import ma.enset.dao.DaoImpl;
 import ma.enset.dao.IDao;
 
 public class IMetierImpl implements IMetier {
@@ -15,4 +16,7 @@ public class IMetierImpl implements IMetier {
     }
 
 
+    public void setDao(DaoImpl dao) {
+        this.dao = dao;
+    }
 }
